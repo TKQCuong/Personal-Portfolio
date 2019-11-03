@@ -50,8 +50,8 @@ export default function Portfolio() {
               <Card.Body>
                 <Card.Title>Twitter</Card.Title>
                 <Card.Text>
-                  This is a Group project we build as a Social networking
-                  website that used Javascript
+                  This is a Group project of 4 members, we build a Social
+                  networking website that used Javascript
                 </Card.Text>
               </Card.Body>
             </Card>

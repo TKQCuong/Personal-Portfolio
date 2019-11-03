@@ -96,17 +96,18 @@ export default function Contact() {
                           <i class="far fa-envelope"></i>
                           trankyquoccuong@gmail.com
                         </p>
-
-                        <a href="https://github.com/" target="_blank">
-                          {" "}
-                          <b>GitHub &nbsp;&nbsp;&nbsp;</b>
-                        </a>
-                        <a
-                          href="https://www.linkedin.com/feed/"
-                          target="_blank"
-                        >
-                          <b>LinkedIn</b>
-                        </a>
+                        <span className="connect">
+                          <a href="https://github.com/" target="_blank">
+                            {" "}
+                            <b>GitHub &nbsp;&nbsp;&nbsp;</b>
+                          </a>
+                          <a
+                            href="https://www.linkedin.com/feed/"
+                            target="_blank"
+                          >
+                            <b>LinkedIn</b>
+                          </a>
+                        </span>
                       </div>
                     </MDBModalFooter>
                   </MDBCardBody>

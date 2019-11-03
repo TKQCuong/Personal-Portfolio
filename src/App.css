@@ -79,6 +79,8 @@ body {
   .navbar-light .navbar-brand {
     font-size: 2.75em;
     transition: all 0.3s;
+    color: black;
+    font-size: 40px;
   }
 }
 
@@ -88,6 +90,19 @@ body {
     background-color: lightgrey;
   }
 }
+
+.navbar-toggler-icon {
+  color: black;
+  font-size: 30px;
+  background-color: red !important;
+}
+
+.navbar-collapse {
+  background-color: lightgray;
+  font-weight: 700;
+  font-size: 30px;
+}
+/*  */
 
 /* End Nav */
 
@@ -313,7 +328,7 @@ header.masthead .intro-text .intro-heading {
 
 /* Start Contact */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   .demo {
     width: 350px !important;
   }
@@ -323,6 +338,9 @@ header.masthead .intro-text .intro-heading {
   }
   .contact-footer {
     padding-right: 2rem;
+  }
+  .connect {
+    margin-left: 20rem !important;
   }
 }
 .contact-header {
@@ -397,5 +415,15 @@ header.masthead .intro-text .intro-heading {
   color: white;
   padding-right: 12rem;
   padding-top: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .connect {
+    margin-left: 20rem !important;
+  }
+  .copyright {
+    font-size: 12px;
+    margin-left: 5rem;
+  }
 }
 /* End Contact */
